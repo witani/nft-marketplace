@@ -1,0 +1,58 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #171717;
+}
+body a {
+  font-size: 18px;
+  font-weight: 500;
+  color: #171717;
+}
+body a:hover {
+  color: #ef32d9;
+}
+body h1 {
+  font-size: 64px;
+  font-weight: 800;
+  background: linear-gradient(90deg, #ef32d9 0%, #89fffd 148.84%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+body button.logo {
+  font-size: 18px;
+  font-weight: 500;
+  color: #171717;
+  width: 238px;
+  height: 59px;
+  border: double 3px transparent;
+  border-radius: 50px;
+  background-image: linear-gradient(white, white), linear-gradient(to right, #ef32d9, #89fffd);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+body button.primary {
+  font-size: 16px;
+  font-weight: 600;
+  color: #f2f3f2;
+  padding: 16px 32px;
+  background: linear-gradient(90deg, #ef32d9 0%, #89fffd 125.6%);
+  border-radius: 50px;
+}
+body button.secondary {
+  background-color: #ef32d9;
+  border-radius: 50px;
+  padding: 8px 16px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #f2f3f2;
+}
+body button.thrue {
+  border: 1px solid rgba(23, 23, 23, 0.5);
+  border-radius: 50px;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #171717;
+}
